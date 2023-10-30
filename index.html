@@ -1,0 +1,837 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="viewport" content="height=device-height">
+		<meta author="Revolt">
+		<meta description="YourName's Project Portfolio">
+		<meta keywords="Your, Name">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Your Name - Project Portfolio</title>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link href='http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Merriweather:300,400,700,400italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+		<style type="text/css">
+			/* Reset some default styles */
+			body, h1, h2, h3, h4, h5, h6, p {
+				margin: 0;
+				padding: 0;
+			}
+	
+			/* Global styling */
+			body {
+				font-family: 'Merriweather', Georgia, serif;
+				margin: 0;
+				padding: 0;
+				background-color: #f4f4f4;
+			}
+	
+			/* Header styling */
+			.header {
+				background-color: #333;
+				color: #fff;
+				padding: 20px 0;
+				text-align: center;
+			}
+	
+			.logo {
+				font-size: 32px;
+				font-weight: 700;
+				text-decoration: none;
+				color: #fff;
+			}
+	
+			.logo:hover {
+				color: #00bcd4;
+			}
+	
+			.contact-links {
+				list-style: none;
+				padding: 0;
+				text-align: center;
+			}
+	
+			.contact-links li {
+				display: inline-block;
+				margin: 0 20px;
+			}
+	
+			.contact-links a {
+				color: #fff;
+				text-decoration: none;
+				font-size: 18px;
+			}
+	
+			/* Contact section */
+			.contacts {
+				text-align: center;
+				padding: 20px;
+			}
+	
+			.contact-link {
+				display: block;
+				font-size: 18px;
+				margin-bottom: 10px;
+				text-decoration: none;
+				color: #333;
+				transition: color 0.3s;
+			}
+	
+			.contact-link:hover {
+				color: #00bcd4;
+			}
+	
+		</style>
+	</head>
+	
+
+		<style type="text/css">
+			.small-caps {
+			    -ms-font-feature-settings: "smcp";
+			    -moz-font-feature-settings: "smcp";
+			    -webkit-font-feature-settings: "smcp";
+			    font-feature-settings: "smcp";
+			}
+
+			.text-figures { 
+			    -moz-font-feature-settings: 'onum';
+			    -ms-font-feature-settings: 'onum';
+			    -webkit-font-feature-settings: 'onum';
+			    font-feature-settings: 'onum';
+			}
+
+			body{
+				font-family: 'Merriweather', Georgia, serif;
+				margin: 0;
+				padding: 0;				
+			}
+
+			h1, h6 {
+            font-family: 'Times New Roman', serif;
+        }
+
+			 h2, h3, h4, h5{
+				font-family: 'Open Sans', sans-serif;
+			}
+			h1{
+				font-size: 48px;
+			}
+			h3{
+				font-size: 24px;
+			}
+			h6{
+				font-size: 22px;
+				font-weight: 300;
+				color: #FFF;
+			}
+			p, .item{
+				font-size: 18px;
+				font-weight: 300;
+				line-height: 1.75;
+			}
+			a{
+				color: #000;
+			}
+			
+			
+			.id_tags{
+				padding: 2px 4px;
+				font-size: 90%;
+				color: rgb(255, 255, 255);
+				background-color: #92898c;
+				border-radius: 4px;
+			}
+			.logo{
+				display: inline-block;
+				position: fixed;
+				left: 10px;
+				top: 10px;
+				z-index: 1000;
+				width: 44px;
+				height: 44px;
+				background: #000;
+				color: #FFF;
+				font-size: 24px;
+				font-weight: 700;
+				text-decoration: none;
+				text-align: center;
+			}
+			.logo:hover{
+				background: #444;
+			}
+			.logo-initial{
+				position: relative;
+				top: 8px;
+			}
+			.special-menu{
+				display: inline-block;
+				position: fixed;
+				left: 3%;
+				bottom: 5%;
+				z-index: 0;
+			}
+			.special-link{
+				border: 1px solid #888;
+				font-style: italic;
+				text-decoration: none;
+				padding: 5px 20px;
+				display: block;
+				font-family: 'Merriweather', serif;
+				text-align: center;
+				font-size: 14px;
+				border-radius: 3px;
+				margin-bottom: 5px;				
+			}
+			.scroll-menu{
+				display: inline-block;
+				position: fixed;
+				left: 3%;
+				top: 22%;
+				z-index: 0;
+			}
+			.scroll-menu .scroll-links{ 
+				font-family: 'Open Sans', sans-serif;
+				display: block;
+				text-decoration: none;
+				padding: 10px 0px;
+				font-size: 12px;
+				color: #000;
+				text-align: center;
+				border-bottom: 1px solid #CCC;
+				text-transform: uppercase;
+			}
+			.scroll-menu .scroll-links.last-link{
+				border-bottom: none;
+			}
+			.full-page{
+				width: 100%;
+				height: 100%;
+				z-index: 100;
+				background-color: #FFF;
+				position: relative;
+			}
+
+			.full-page h1, .full-page h6, .full-page a{
+				font-family: Caflisch Script Pro, cursive;
+			}
+
+			.full-page a{
+				text-decoration: none;
+				color: #4B0082;
+			}
+
+			.full-page h1, .full-page h6{
+				margin: 0px;
+			}
+
+			.full-page h1{
+				font-size: 3em;
+				line-height: 1.2em;
+			}
+
+			.full-page h6{
+				font-size: 1em;
+				color: #666;
+			}
+			.uppercase{
+				text-transform: uppercase;
+			}
+
+			.left{
+				width: 50%;
+				height: 100%;
+				display: inline-block;
+				float: left;
+				text-align: center;
+			}
+
+			.left.black{
+				background: #000;
+				color: #FFF;
+			}
+
+			.wrapper .container{
+				display: table;
+	   			width: 100%;
+	   			height: 100%;
+			}
+
+			.wrapper .container .dummy{
+				display: table-cell;
+				text-align: center;
+				vertical-align: middle;
+				padding: 0px 10%;
+			}
+			.full-page a.button{
+				text-decoration: none;
+				width: 200px;
+				padding: 10px 0px;
+				margin: 10px 0px;
+				border: 1px solid;
+				display: inline-block;
+				text-transform: uppercase;
+			}
+
+			.full-page a.button.white{
+				color: #FFF;
+			}
+
+			.full-page a.button.white:hover{
+				background: #222;
+			}
+			.content{
+				width: 65%;
+				margin: 150px auto;
+			}
+			.item{
+				margin-bottom: 30px;
+			}
+			.item .college-name, .item .skill-type{
+				font-weight: 400;
+			}
+			.item .year-address, .item .skills{
+				color: #444;
+			}
+			.grid-collection .item{
+				margin-bottom: 0px;
+				padding: 20px 0px;
+				border-bottom: 1px solid grey;
+			}
+			.grid-item{
+				position: relative;
+				margin-bottom: 50px;
+			}
+			.grid-item .content-wrapper{
+				position: absolute;
+				top: 0px;
+				width: 100%;
+				height: 100%;
+				background: rgba(0,0,0,0.4);
+				opacity: 0;
+				transition: opacity .3s ease-out;
+			    -moz-transition: opacity .3s ease-out;
+			    -webkit-transition: opacity .3s ease-out;
+			    -o-transition: opacity .3s ease-out;
+			    text-align: center;
+			}
+			.grid-item:hover .content-wrapper{
+				opacity: 1;
+			}
+			.grid-item .content-wrapper .button{
+				background: #FFF;
+				padding: 10px 25px;
+				color: #000;
+				text-decoration: none;
+				font-family: 'Open Sans', sans-serif;
+				border-radius: 4px;
+				position: relative;
+				top: -40px;
+				-webkit-transition: all 0.3s ease-out;
+				-moz-transition: all 0.3s ease-out;
+				-o-transition: all 0.3s ease-out;
+				-ms-transition: all 0.3s ease-out;
+				transition: all 0.3s ease-out;
+			}
+			.grid-item:hover .content-wrapper .button{
+				top: 50%;
+			}
+			.contacts a{
+				margin-right: 10px;
+			}
+			a.email{
+				text-decoration: none;
+			}
+			.brief{
+				font-size: 14px;
+				margin-top: 5px;
+			}
+			.item .link{
+				margin-top: 5px;
+			}
+
+			.project-title{
+				font-weight: 800;
+				font-size: 18px;
+			}
+			.project-description{
+				    margin-top: 10px;
+				    color: #444;
+				    font-size: 14px;
+				    font-weight: 300;
+			}
+			.project-links{
+				font-size: 14px;
+				font-weight: 800;
+				margin-top: 10px;
+			}
+			.img-circle {
+				border-radius: 50%;
+			}
+			/* Small Screens ----------- */
+			@media only screen and (max-width: 767px){
+				.special-menu .special-link{
+					font-size: 12px;
+					padding: 5px;
+				}
+				.scroll-menu{
+					display: none;
+				}
+				.left{
+					width: 100%;
+					height: 50%;
+				}
+				.wrapper .container .dummy{
+					padding: 0;
+				}
+			}
+			@media only screen and (max-height: 480px){
+				.scroll-menu{
+					display: none;
+				}
+				.left{
+					height: auto;
+				}
+			}
+		</style>
+
+<style type="text/css">
+    /* ... (other styles you have) ... */
+
+    .logo {
+        display: inline-block;
+        position: fixed;
+        left: 10px;
+        top: 10px;
+        z-index: 1000;
+        width: 44px;
+        height: 44px;
+        background: #333; /* Change the background color */
+        color: #fff; /* Change the text color */
+        font-size: 24px;
+        font-weight: 700;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 50%; /* Make the logo a circle */
+        line-height: 44px; /* Vertically center the text in the circle */
+    }
+
+    .logo:hover {
+        background: #00bcd4; /* Change the background color on hover */
+    }
+
+    .special-menu {
+        display: inline-block;
+        position: fixed;
+        left: 3%;
+        bottom: 5%;
+        z-index: 0;
+    }
+
+    .special-link {
+        border: 1px solid #00bcd4; /* Change the border color */
+        font-style: italic;
+        text-decoration: none;
+        padding: 5px 20px;
+        display: block;
+        font-family: 'Merriweather', serif;
+        text-align: center;
+        font-size: 14px;
+        border-radius: 3px;
+        margin-bottom: 5px;
+        color: #00bcd4; /* Change the text color */
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .special-link:hover {
+        background-color: #00bcd4; /* Change the background color on hover */
+        color: #fff; /* Change the text color on hover */
+    }
+
+    .scroll-menu {
+        display: inline-block;
+        position: fixed;
+        left: 3%;
+        top: 22%;
+        z-index: 0;
+    }
+
+    .scroll-links {
+        font-family: 'Open Sans', sans-serif;
+        display: block;
+        text-decoration: none;
+        padding: 10px 0px;
+        font-size: 12px;
+        color: #333; /* Change the text color */
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+        text-transform: uppercase;
+        transition: color 0.3s;
+    }
+
+    .scroll-links.last-link {
+        border-bottom: none;
+    }
+
+    .scroll-links:hover {
+        color: #00bcd4; /* Change the text color on hover */
+    }
+</style>
+	</head>
+
+	<body>
+		<!--TODO: change the logo initial from TT to your initials-->
+		<a href="./index.html" class="logo" title="Home"><span class="logo-initial">HN</span></a>
+		<div class="special-menu">
+			<a href="#top" class="scroll-links special-link">Top</a>
+		</div>
+		<div class="scroll-menu">
+			<a href="#about" class="scroll-links">About</a>
+			<a href="#publications" class="scroll-links">Publications</a>
+			<a href="#projects" class="scroll-links">Projects</a>
+			<a href="#skills" class="scroll-links">Skills</a>
+			<a href="#contact" class="scroll-links last-link">Contact</a>
+		</div>
+
+		<section class="full-page" id="top">
+			<section class="left white wrapper">
+				<div class="container">
+					<div class="dummy">
+						<h1 class="uppercase">HARISH NANDHAN SHANMUGAM</h1>
+						<h6 class="uppercase">Data Science Enthusiast</h6>
+					</div>
+				</div>
+			</section>
+			<section class="left black wrapper">
+				<div class="container">
+					<div class="dummy">
+						<img class="img-circle" src="images/harishvi.jpg">
+						<div><a href="#portfolio" class="button white scroll-links" title="Academics & work experiences">Explore My Work</a></div>
+					</div>
+				</div>
+			</section>
+			<div style="clear: both;"></div>
+		</section>
+
+		<section class="content" id="portfolio">
+		
+<!----------------------------------------------------ABOUT-ME START--------------------------------------------------------------------------------------->
+			<h1 class="heading" id="about" name="about">About me</h1>
+			<p>
+				I am a data science enthusiast currently in my final year of B.Tech in Artificial Intelligence and Machine Learning. My primary interest lies in healthcare-focused data science and AI projects. I have a strong eagerness to explore and learn about the latest trends in Generative AI and Large Language Models.
+			</p>
+<!----------------------------------------------------ABOUT-ME END--------------------------------------------------------------------------------------->
+
+<!----------------------------------------------------EDUCATION START--------------------------------------------------------------------------------------->				
+			<h1 class="heading" id="education" name="education">Education</h1>
+			
+			<section class="grid-collection">
+				
+				<div class="item">
+					<div class="project-title">Undergrad - B.Tech Artificial Intelligence and Machine Learning</div>
+					<div class="paper-detail"><b>College:</b>Rajalakshmi Engineering College (Anna University) </div>
+					<div class="paper-detail"><b>CGPA:</b> 9.40 </div>
+					<div class="paper-detail"><b>Duration:</b> 2020 - 2024 </div>
+				</div>
+				
+				<div class="item">
+					<div class="project-title">Higher Senior Secondary</div>
+					<div class="paper-detail"><b>School:</b> Aditya's Vivekanandha's Matric Higher Secondary School</div>
+					<div class="paper-detail"><b>Percentage:</b> 86 %</div>
+					<div class="paper-detail"><b>Duration:</b> 2019 - 2020 </div>
+				</div>
+				
+				<div class="item">
+					<div class="project-title">Senior Secondary</div>
+					<div class="paper-detail"><b>School:</b> Ramakrishna Mission Matric Higher Secondary School</div>
+					<div class="paper-detail"><b>Percentage:</b> 95 % </div>
+					<div class="paper-detail"><b>Duration:</b> 2017 - 2018</div>
+				</div>
+
+
+			</section>
+<!----------------------------------------------------EDUCATION END--------------------------------------------------------------------------------------->	
+
+<!----------------------------------------------------WORK EXPERIENCE START--------------------------------------------------------------------------------------->				
+<h1 class="heading" id="education" name="education">Work Experience</h1>
+			
+<section class="grid-collection">
+	
+	<div class="item">
+		<div class="project-title"><b>Role: </b> Machine Learning Intern </div>
+		<div class="paper-detail"><b>Company: </b> Ineuron</div>
+		<div class="paper-detail"><b>Work: </b> Engaged in developing predictive models for thyroid disease risk assessment, with a focus on data preprocessing, transformation, and feature engineering, as well as building, refining, and evaluating machine learning models for ongoing research, while actively collaborating on the development of a Flask-based web application for disease prediction.
+			  </div>
+		<div class="paper-detail"><b>Duration: </b> JULY 2023 - PRESENT </div>
+	</div>
+
+
+	<div class="item">
+		<div class="project-title"><b>Role: </b> Data Science Intern </div>
+		<div class="paper-detail"><b>Company: </b> LetsGrowMore An MSME Startup</div>
+		<div class="paper-detail"><b>Work: </b> Implemented exploratory data analysis on dataset — terrorism, prediction using decision tree
+			algorithm, and stock market forecasting and prediction using stacked LSTM by carrying out
+			various operations such as data cleaning, data manipulation, and data transformation.
+			  </div>
+		<div class="paper-detail"><b>Duration: </b> 1 month (JUNE 2023) </div>
+	</div>
+
+	<div class="item">
+		<div class="project-title"><b>Role: </b> Web Development and Comparative Analysis Intern</div>
+		<div class="paper-detail"><b>Company: </b> Plumb5 Analytics (A Unit of Decisive Analytics), Bangalore</div>
+		<div class="paper-detail"><b>Work: </b>For the company's email campaigning, a template builder has been created.
+			With the grape.js framework, created a web application resembling beefree.io.
+			Conducted a comparative market analysis comparing businesses like Amberity, Treasure Data,
+			and Plumb5.
+			</div>
+		<div class="paper-detail"><b>Duration:</b>3 months (JANUARY 2023 - APRIL 2023) </div>
+	</div>
+	
+	<div class="item">
+		<div class="project-title"><b>Role: </b> Summer Internship Trainee (Android Application Development) </div>
+		<div class="paper-detail"><b>Company:</b> National Small Industries Corporation, Chennai </div>
+		<div class="paper-detail"><b>Work: </b> Learnt more about development of project life cycle and Hosting web applications in the internet </div>
+		<div class="paper-detail"><b>Duration:</b> 1 week (JULY 2022) </div>
+	</div>
+
+
+</section>
+<!----------------------------------------------------EDUCATION END--------------------------------------------------------------------------------------->	
+
+<!----------------------------------------------------PUBLICATION START--------------------------------------------------------------------------------------->			
+			<h1 class="heading" id="publications" name="publications">Publications</h1>
+	        
+			<!--Paper 1: START-->
+			<div class="item">
+	        	<div class="paper-detail"><i>[Published] </i><span class="authors">S.Harish Nandhan, J. Remoon Zean, Akshara Sri L, Dr.V. Subedha, Giftson P C </span><span class="paper-title"><b> "Detection and Predicting Air Pollution Level in a Specific City using Deep Learning"</b> </span><span class="workshop-details"> in <b>International Journal on Recent and Innovation Trends in Computing and Communication</b></span></div>
+				<div><center><img src="images\air-pollution.jpg" alt="Project Image" style="max-width: 100%; height: auto;">
+				</div></center>
+	        	<div class="link">
+	        		<a href="https://ijritcc.org/index.php/ijritcc/article/view/7653" target="_blank"><b> View Paper </b></a>
+	        	</div>
+	        </div>
+			<!--Paper 1: END-->
+			
+			<!--Paper 2: START-->
+			<div class="item">
+	        	<div class="paper-detail"><i>[Published] </i><span class="authors">Bandi Vivek, S.Harish Nandhan, J. Remoon Zean, Dr. D. Lakshmi, Batini Dhanwanth </span><span class="paper-title"><b>"Applying Machine Learning to the Detection of Credit Card Fraud"</b> </span><span class="workshop-details"> in <b>International Journal of Intelligent Systems and Applications in Engineering</span></div>
+					<div><center><img src="images\credit-card.jpg" alt="Project Image" style="max-width: 100%; height: auto;">
+					</div></center>
+					<div class="link">
+	        		<a href="https://ijisae.org/index.php/IJISAE/article/view/3267" target="_blank">View Paper</a>
+	        	</div>
+	        </div>
+			<!--Paper 2: END-->
+			
+			<!--Paper 3: START-->
+	        <div class="item">
+	        	<div class="paper-detail"><i>[Presented and Accepted for Publication] </i><span class="authors">S. Harish Nandhan, J. Remoon Zean, A.R.Mahi, R.Meena, S.Mahalakshmi </span><span class="paper-title"><b>"A Deep Learning Approach for 
+					Non - Invasive Body Mass Index Calculation"
+	
+	</b> </span><span class="workshop-details"> in <b>Communication in Computer and Information Science Springer Book
+		Series</b> (International
+		Conference on Advances in Artificial Intelligence and Machine Learning in Big Data Processing)</span></div>
+		<div><center><img src="images\bmi_conference.jpg" alt="Project Image" style="max-width: 100%; height: auto;">
+		</div></center>
+	        	<div class="link">
+	        		<a href="https://drive.google.com/drive/folders/1GBvvKTzdVM8DPCqYh8R9CIS1ON9-RyRp?usp=drive_link" target="_blank"><b>View Paper</b></a>
+	        	</div>
+	        </div>
+
+			
+			<!--Paper 3: END-->
+			
+			<!--Paper 4: START-->
+			
+			<div class="item">
+	        	<div class="paper-detail"><i>[Presented and Accepted for Publication] </i><span class="authors">Harish Nandhan S,
+					, Remoon Zean J
+					, Harshini J
+					, Mahi A R
+					, Gopinath K </span><span class="paper-title"><b>"Advancing Liver Tumor Segmentation: Integrating U-Net Architecture and 
+						Computed Tomography for Improved Diagnosis"
+						</b> </span><span class="workshop-details"> in <b> Utilitas Mathematica Journal Conference Proceedings</b> (International Conference on Research and Innovation in Biomedical Engineering)
+</span></div>
+<div><center><img src="images\ribe_certi.jpg" alt="Project Image" style="max-width: 100%; height: auto;">
+</div></center>
+	        	<div class="link">
+	        		<a href="https://drive.google.com/drive/folders/1bCid6R26VOFn8anXyR-k2CQvROXVGODH?usp=drive_link" target="_blank"><b>View Paper</b></a>
+	        	</div>
+	        </div>
+			<!--Paper 4: END-->
+
+<!----------------------------------------------------PUBLICATION END--------------------------------------------------------------------------------------->	
+
+<!----------------------------------------------------PROJECTS START---------------------------------------------------------------------------------------->	
+
+			<h1 class="heading" id="projects" name="projectsml">Projects</h1>
+			<section class="grid-collection">
+				
+				<!--Project 1: START-->
+				<div class="item">
+					<div class="project-title">CogniKids: Nurturing Young Minds Through Tech</div>
+					<div><code class="id_tags">Python</code> <code class="id_tags">Pytorch</code> <code class="id_tags">Moviepy</code> <code class="id_tags">Diffusers</code> <code class="id_tags">Transformers</code></div>
+					
+					<div class="project-description">It is a text to Education video content model, where students can interactively enter a prompt and a video related to that particular prompt educational content will be generated by creating own AI images with the help of Generative AI. </div>
+					<div><center><img src="images\education.jpg" alt="Project Image" style="max-width: 100%; height: auto;">
+					</div></center>
+					<div class="project-links">
+						 
+						<a href="https://github.com/rajesh-iiith/CarND-DeepLearning-ComputerVision/tree/master/CarND-Behavioral-Cloning-P3" target="_blank">Code</a>
+					</div>
+				</div>
+				<!--Project 1: END-->
+				
+				<!--Project 2: START-->
+				<div class="item">
+					<div class="project-title">Pneumothorax Segmentation using UNet++ and Transfer Learning</div>
+					<div><code class="id_tags">Python</code> <code class="id_tags">Unet++</code> <code class="id_tags">ResNet</code> <code class="id_tags">ChestNet</code></div>
+					
+					<div class="project-description">The proposed model uses the strengths of both ChestNet, which is built on the ResNet backbone framework, and UNet++, a nested UNet architecture. This dual approach allows us to achieve precise and effective pneumothorax diagnosis and segmentation in medical images, ensuring comprehensive and accurate results. </div>
+					<div><center><img src="images\pneumo-thorax.jpg" alt="Project Image" style="max-width: 100%; height: auto;">
+					</div></center>
+					<div class="project-links">
+						
+						<a href="https://github.com/rajesh-iiith/CarND-DeepLearning-ComputerVision/tree/master/CarND-Vehicle-Detection-P5" target="_blank">Code</a>
+					</div>
+				</div>
+				
+				
+				
+				<!--Project 2: END-->
+
+				<!--Project 3: START-->
+<div class="item">
+    <div class="project-title">Body Mass Index using Face Images</div>
+    <div><code class="id_tags">Python</code> <code class="id_tags">OpenCV</code> <code class="id_tags">VGG16</code>  <code class="id_tags">Tensorflow</code></div>
+    
+    <div class="project-description">Utilizing facial images as input, a predictive model was created to estimate BMI, age, and gender. State-of-the-art models, Resnet and VGG16, were employed for robustness. Training data came from the Polk County prison dataset, and additional testing included classmates' images, enhancing accuracy. This project, part of an academic 'Mini Project,' exemplified the real-world applicability of deep learning and computer vision. </div>
+	<div><center><img src="images\bmi-nish-log.jpg" alt="Project Image" style="max-width: 100%; height: auto;">
+	</div></center>   
+	<div class="project-links">
+        <a href="https://github.com/HarishNandhan/BMI-from-face-images" target="_blank">Code</a>
+    </div>
+    
+    <!-- Add your image here -->
+    
+<!--Project 3: END-->
+
+
+				<!--Project 4: START-->
+				<div class="item">
+					<div class="project-title">A Machine Learning application which predicts Student Performance</div>
+					<div><code class="id_tags">Python</code> <code class="id_tags">Machine Learning</code> <code class="id_tags">Flask</code> <code class="id_tags">Microsoft Azure</code></div>
+					
+					<div class="project-description">Student Performance Predictor is a web application that predicts the math score of a student
+						based on their gender, ethnicity, parental level of education, lunch type, test preparation course,
+						reading score, and writing score. The application is built using Flask framework in Python and
+						uses a machine learning model trained on student performance data to make predictions.
+						</div>
+						<div><center><img src="images\student-performance.jpg" alt="Project Image" style="max-width: 100%; height: auto;">
+						</div></center>
+						<div class="project-links">
+						
+						<a href="https://github.com/HarishNandhan/Studentperformancepredictor" target="_blank">Code</a>
+					</div>
+				</div>
+
+				
+				<!--Project 4: END-->
+
+
+			</section>
+<!----------------------------------------------------PROJECTS END---------------------------------------------------------------------------------------->				
+
+<!----------------------------------------------------SKILLS START---------------------------------------------------------------------------------------->				
+<style type="text/css">
+    /* Reset some default styles */
+    body, h1, h2, h3, h4, h5, h6, p {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Global styling */
+    body {
+        font-family: 'Merriweather', Georgia, serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    /* ... (other styles you have) ... */
+
+    /* Style for the columns */
+    .paper-detail .column {
+        width: 50%; /* Split the width equally between two columns */
+        float: left; /* Float columns to the left */
+    }
+
+    .paper-detail ul {
+        list-style: disc; /* Use disc bullets for the list items */
+        padding-left: 20px; /* Add some padding for better spacing */
+    }
+
+    .paper-detail li {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.75;
+    }
+</style>
+<h1 class="heading" id="skills" name="skills">Skills</h1>
+<div class="item">
+    <div class="paper-detail">
+        <div class="column">
+           
+            <ul>
+                <li>Programming - Python, C, R</li>
+                <li>Statistics and Probability</li>
+                <li>Machine Learning</li>
+                <li>Machine Learning</li>
+                
+            </ul>
+        </div>
+        <div class="column">
+            
+            <ul>
+                <li>Natural Language Processing</li>
+                <li>Project Management</li>
+                <li>Data Analysis</li>
+                <li>Logging and Debugging</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!----------------------------------------------------SKILLS END---------------------------------------------------------------------------------------->			
+
+			<!-- Contact Section -->
+<h1 class="heading" id="contact" name="contact">Contact</h1>
+<div class="contacts">
+    <a href="harishnandhan02@gmail.com" class="contact-link">
+        <i class="fa fa-envelope"></i> Email me
+    </a>
+    <a href="https://github.com/HarishNandhan" target="_blank" class="contact-link">
+        <i class="fa fa-github"></i> GitHub
+    </a>
+    <a href="http://www.linkedin.com/in/harish-nandhan-b548541b4" target="_blank" class="contact-link">
+        <i class="fa fa-linkedin"></i> LinkedIn
+    </a>
+</div>
+</section>
+</body>
+<!-- Include Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Your existing JavaScript libraries -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="./assets/thirdparty/scrollTo.min.js"></script>
+<script>
+    $('.scroll-links').scrollTo();
+</script>
+</html>
